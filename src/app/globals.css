@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --Soft-red: 7deg 99% 70%;
+    --Yellow: 51deg 100% 49%;
+    --Dark-desaturated-cyan: 167deg 40% 24%;
+    --Dark-blue: 198deg 62% 26%;
+    --Dark-moderate-cyan-footer: 168deg 34% 41%;
+    --Very-dark-desaturated-blue: 212deg 27% 19%;
+    --Very-dark-grayish-blue: 213deg 9% 39%;
+    --Dark-grayish-blue: 232deg 10% 55%;
+    --Grayish-blue: 210deg 4% 67%;
+    --White: 0deg 0% 100%;
+  }
+}
+
+#drop-nav::before {
+  position: absolute;
+  content: ' ';
+  top: -1.9rem;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-width: 30px 40px 30px 0;
+  border-color: transparent white transparent transparent;
+  border-style: solid;
+}
+
+
+@media only screen and (min-width: 350px) {
+  #header {
+    background-image: url('/images/mobile/image-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* #sect1-img1 {
+    background-image: url(/images/mobile/image-transform.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  #sect1-img2 {
+    background-image: url(/images/mobile/image-stand-out.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  #sect1-img3 {
+    background-image: url(/images/mobile/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  #sect1-img4 {
+    background-image: url(/images/mobile/image-photography.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  } */
+}
+
+@media only screen and (min-width: 800px) {
+  #header {
+    background-image: url('/images//desktop/image-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  /* #sect1-img1 {
+    background-image: url(/images/desktop/image-transform.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  #sect1-img2 {
+    background-image: url(/images/desktop/image-stand-out.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  #sect1-img3 {
+    background-image: url(/images/desktop/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  #sect1-img4 {
+    background-image: url(/images/desktop/image-photography.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  } */
+}
